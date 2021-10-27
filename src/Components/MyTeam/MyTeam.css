@@ -1,0 +1,11 @@
+#my-team {
+    min-height: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#my-team .pokemon-data {
+    height: 20%;
+}

@@ -1,0 +1,27 @@
+.App {
+    background-image: url('/src/pokeball.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: white;
+    border-bottom: 5px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+button {
+    margin: 10px;
+}
